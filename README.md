@@ -1,27 +1,6 @@
-# CIS580 HW2 
-
-To run this program:
-
-```
-cd code
-python main.py
-```
-
-We also provided some helper flags. Please check `main.py` for details. You can generate your visualizations with either PnP or P3P algorithm, but you still need to implement both of them. Although you are not asked to implement the renderer, you are still encouraged to look through the code of renderer as you may need to renderer your results by yourself next time. 
-
-PS: remember to complete the `est_homography.py` with the function you just wrote for HW1.
-
-## Debugging
-
-It's recommended to run the program with `--debug` when you start to work on this homework since the rendering takes about 2 mins to finish on a PC. 
-
-Also, note that the main program has several other args you can set, please have a look at line 40 in the `main.py` for more details: You can pass `--solver PnP` or `--solver P3P` to the program to toggle between the solving methods.
-
-Note, we also provide the `.vscode` launch configuration for you to easily debug in VSCode.
-
-## Customization
-
-You need to assign different values to  `click_point` in `main.py` to render the drill at different places. 
-
-
-
+# Augmented Reality using April Tags
+Python implementation of P3P and PnP algorithms for pose estimation and augmented reality task using april tags.
+# References
+1. E. Olson, "AprilTag: A robust and flexible visual fiducial system," 2011 IEEE International Conference on Robotics and Automation, Shanghai, China, 2011, pp. 3400-3407, doi: 10.1109/ICRA.2011.5979561.
+2. R. M. Haralick, C.-N. Lee, K. Ottenberg, and M. Nolle, "Review and Analysis of Solutions of the Three Point Perspective Pose Estimation Problem," International Journal of Computer Vision, vol. 13, no. 3, pp. 331-356, 1994.
+3. V. Lepetit, F. Moreno-Noguer, and P. Fua, "EPnP: An Accurate O(n) Solution to the PnP Problem," International Journal of Computer Vision, vol. 81, no. 2, pp. 155-166, 2009.
